@@ -1,5 +1,5 @@
 rubocop:
-  version: 1.11.0
+  config_file: .rubocop.yml
 
 Style/Encoding:
   Enabled: false
