@@ -35,7 +35,7 @@ Dudley into his high chair.'
     text = ''
     puts('reading file')
     puts("extracted string: #{text}")
-    histogram = HistogramGenerator.process_string({ string: TEXT })
+    histogram = HistogramGenerator.process_string(string: TEXT)
     puts('generated histogram:')
     puts(histogram)
     puts('sorted histogram:')
